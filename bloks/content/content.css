@@ -1,5 +1,5 @@
 .content {
-    width: calc(100% - 48*2);
+    width: calc(100% - 48px*2);
     margin: 56px 48px 92px;
 }
 

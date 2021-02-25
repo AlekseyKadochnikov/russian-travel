@@ -5,10 +5,8 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     box-sizing: border-box;
-    background-position: center ;
-    /* background-repeat: no-repeat; */
+    background-position: center;
     min-height: 740px;
-    /* width: 100%; */
     position: relative;
     z-index: 1;
  }

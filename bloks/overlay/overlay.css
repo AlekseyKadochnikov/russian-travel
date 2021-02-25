@@ -1,0 +1,16 @@
+.overlay {
+    max-height: 740px;
+    margin: 92px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .overlay {
+        margin: 90px 0 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .overlay {
+        margin: 66px 0 0;
+    }
+}

@@ -1,0 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.header {
+  width: calc(100% - 48px*2);
+  margin: 28px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+ 
+@media screen and (max-width: 1023px) {
+  .header {
+    width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: calc(100% - 16px*2);
+    margin: 16px auto 0 auto;
+  }
+}

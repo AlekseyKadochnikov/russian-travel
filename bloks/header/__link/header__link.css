@@ -1,3 +1,14 @@
 .header__link {
     color: #FFF;
+    text-decoration-line: none;
+    opacity: 1;
+    transition: .3s;
+}
+
+.header__link:last-child {
+    margin-left: 18px;
+}
+
+.header__link:hover {
+    opacity: .3;
 }

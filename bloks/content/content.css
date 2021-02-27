@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 767px) {
     .content {
+        width: 100%;
         margin: 48px 0 64px;
     }
 }

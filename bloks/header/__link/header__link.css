@@ -2,6 +2,7 @@
     color: #FFF;
     opacity: 1;
     transition: .3s;
+    text-decoration-line: none;
 }
 
 .header__link:last-child {
